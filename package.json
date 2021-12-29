@@ -1,0 +1,24 @@
+{
+  "name": "standard-version-updater-helm-chart",
+  "version": "1.0.0",
+  "description": "A Helm Chart updater for standard-version",
+  "keywords": [
+    "standard-version",
+    "updater",
+    "helm"
+  ],
+  "homepage": "https://github.com/fynncfchen/standard-version-updater-helm-chart#readme",
+  "bugs": {
+    "url": "https://github.com/fynncfchen/standard-version-updater-helm-chart/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fynncfchen/standard-version-updater-helm-chart.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "fynncfchen",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ]
+}
