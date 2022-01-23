@@ -1,6 +1,6 @@
 module.exports.readVersion = function (contents) {
   const matches = contents.match(/^appVersion:\s*(.*)$/m);
-  const version = matches[1].replace(/'|"/, '');
+  const version = matches[1].replace(/'|"/g, '');
   return version;
 };
 
